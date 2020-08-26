@@ -1,0 +1,100 @@
+body{
+    background: radial-gradient(#72ccb8, white, #161616);
+    margin: auto;
+    max-width: 100%;
+   
+    
+}
+
+.card{
+    
+    transform: scale(1);
+    transition: ease-out 0.3s;
+    margin: auto;
+    max-width: 50%;
+    background: #e6fff2;
+    box-shadow: 10px 10px 20px 10px rgba(230, 233, 235, 0.253)!important;
+   
+    
+
+}
+
+.card:hover{
+   
+    box-shadow: 10px 10px 20px 10px rgba(7, 88, 112, 0.253)!important;
+}
+
+
+
+.card-body{
+    padding: 3rem 0 !important;
+   
+}
+
+.card-text{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    
+}
+
+.container-fluid .row{
+    padding-top: 3rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.card-img-top{
+    
+    width: 100%;
+    margin: auto;
+   
+}
+
+ 
+.det, .det a{
+margin: 10px;
+
+text-decoration: none;
+padding: 10px;
+border-radius: 10px;
+background: #f3f3f3;
+color:#285473;
+font-size:18px;
+}
+.det:hover, .det a:hover{
+    background:#061c2c ;
+    color: blanchedalmond;
+}
+
+.reg, .reg a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    padding: 10px;
+border-radius: 10px;
+background: #f3f3f3;
+color:#285473;
+font-size:18px;
+
+}
+.reg:hover, .reg a:hover{
+    background:#061c2c ;
+    color: blanchedalmond;
+}
+.price, .price a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+border-radius: 10px;
+background: #f3f3f3;
+color:#285473;
+font-size:18px;
+
+}
+.price:hover, .price a:hover{
+    background:#061c2c ;
+    color: blanchedalmond;
+}
